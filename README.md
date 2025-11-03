@@ -2,7 +2,7 @@
 <html lang="pt">
 <head>
   <meta charset="utf-8">
-  <title>Cheique Murilo</title>
+  <title>Murilo Evangelista</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
   <style>
@@ -22,14 +22,12 @@
 </head>
 <body>
   <div class="card">
-    <img src="https://i.imgur.com/8QJ8Z8Z.jpg" alt="Cheique">
-    <h1>Oi, eu sou Cheique 😉</h1>
-    <p>Desenvolvedor Full-Stack | Apaixonado por IA e café</p>
+    <img src="eu.jpg" alt="Cheique">
+    <h1>Boas, Sou Murilo 😉</h1>
+    <p>Controlling | Costing | BI | Data Analysis</p>
     <div class="links">
       <a href="https://github.com/cheique-murilo" target="_blank">GitHub</a>
-      <a href="https://linkedin.com/in/cheique-murilo" target="_blank">LinkedIn</a>
-      <a href="https://instagram.com/cheique.murilo" target="_blank">Instagram</a>
-      <a href="https://meuprojeto.com" target="_blank">Meu Projeto Top</a>
+      <a href="https://www.linkedin.com/in/muriloevangelista" target="_blank">LinkedIn</a>
     </div>
   </div>
 </body>
