@@ -1,1 +1,33 @@
-<!DOCTYPE html><html lang="pt"><head><meta charset="utf-8"><title>Seu Nome</title><meta name="viewport" content="width=device-width, initial-scale=1"><style>body{margin:0;font-family:system-ui;background:linear-gradient(135deg,#667eea,#764ba2);color:#fff;height:100vh;display:flex;align-items:center;justify-content:center;text-align:center}h1{font-size:3.5rem;margin:0}p{font-size:1.3rem;max-width:500px}a{display:inline-block;margin:15px;padding:16px 30px;background:rgba(255,255,255,0.2);border:2px solid #fff;border-radius:50px;text-decoration:none;font-weight:600;transition:.3s}a:hover{background:#fff;color:#667eea}</style></head><body><div><h1>Oi, eu sou [Seu Nome] 👋</h1><p>Desenvolvedor | Designer | Criador de coisas legais</p><a href="https://github.com/seunome">GitHub</a><a href="https://linkedin.com/in/seunome">LinkedIn</a><a href="https://instagram.com/seunome">Instagram</a></div></body></html>
+<!DOCTYPE html>
+<html lang="pt"><head>
+<meta charset="utf-8">
+<title>Seu Nome</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  *{margin:0;box-sizing:border-box}
+  body{font-family:'Inter',sans-serif;background:#0d0d0d;color:#fff;height:100vh;display:flex;align-items:center;justify-content:center;text-align:center;padding:20px;background:radial-gradient(circle at center,#1a1a2e,#0f0f1a)}
+  .card{background:rgba(255,255,255,0.08);backdrop-filter:blur(12px);border:1px solid rgba(255,255,255,0.1);border-radius:24px;padding:40px 30px;max-width:420px;width:100%;box-shadow:0 20px 40px rgba(0,0,0,0.4)}
+  img{width:120px;height:120px;border-radius:50%;border:4px solid #7b68ee;margin-bottom:20px;object-fit:cover}
+  h1{font-size:2.4rem;margin:10px 0;font-weight:700}
+  p{font-size:1.1rem;opacity:0.8;margin-bottom:30px;line-height:1.6}
+  .links a{display:block;margin:12px auto;padding:14px 24px;max-width:280px;background:linear-gradient(135deg,#7b68ee,#4a00e0);color:white;border-radius:50px;text-decoration:none;font-weight:600;font-size:1.05rem;transition:.3s;box-shadow:0 4px 15px rgba(123,104,238,0.4)}
+  .links a:hover{transform:translateY(-3px);box-shadow:0 8px 25px rgba(123,104,238,0.6)}
+  .links a:nth-child(1){background:#333} /* GitHub */
+  .links a:nth-child(2){background:#0a66c2} /* LinkedIn */
+  .links a:nth-child(3){background:#e4405f} /* Insta */
+</style>
+</head>
+<body>
+<div class="card">
+  <img src="https://i.imgur.com/SeuRosto.jpg" alt="Sua foto">
+  <h1>Oi, eu sou [SEU NOME] 👋</h1>
+  <p>Desenvolvedor Full-Stack | Apaixonado por IA e café</p>
+  <div class="links">
+    <a href="https://github.com/SEUUSER" target="_blank">GitHub</a>
+    <a href="https://linkedin.com/in/SEUUSER" target="_blank">LinkedIn</a>
+    <a href="https://instagram.com/SEUUSER" target="_blank">Instagram</a>
+    <a href="https://meuprojeto.com" target="_blank">Meu Projeto Top</a>
+  </div>
+</div>
+</body></html>
