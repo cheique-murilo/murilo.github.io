@@ -22,7 +22,7 @@
 </head>
 <body>
   <div class="card">
-    <img src="eu.jpg" alt="Cheique">
+    <img src="eu.jfif" alt="Cheique">
     <h1>Boas, Sou Murilo 😉</h1>
     <p>Controlling | Costing | BI | Data Analysis</p>
     <div class="links">
