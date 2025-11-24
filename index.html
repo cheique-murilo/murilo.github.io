@@ -5,41 +5,121 @@
   <title>Murilo Evangelista</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+
   <style>
-    *{margin:0;box-sizing:border-box}
-    body{font-family:'Inter',sans-serif;background:#0d0d0d;color:#fff;height:100vh;display:flex;align-items:center;justify-content:center;text-align:center;padding:20px;background:radial-gradient(circle at center,#1a1a2e,#0f0f1a)}
-    .card{background:rgba(255,255,255,0.08);backdrop-filter:blur(12px);border:1px solid rgba(255,255,255,0.1);border-radius:24px;padding:40px 30px;max-width:420px;width:100%;box-shadow:0 20px 40px rgba(0,0,0,0.4)}
-    img{width:100px !important;height:100px !important;border-radius:50%;border:4px solid #7b68ee;margin-bottom:20px;object-fit:cover;display:block;margin-left:auto;margin-right:auto}
-    h1{font-size:2rem;margin:10px 0;font-weight:700;word-wrap:break-word}
-    p{font-size:1.1rem;opacity:0.8;margin-bottom:30px;line-height:1.6;word-wrap:break-word;padding:0 10px}
-    .links a{display:block;margin:12px auto;padding:14px 24px;max-width:280px;color:white;border-radius:50px;text-decoration:none;font-weight:600;font-size:1.05rem;transition:.3s;box-shadow:0 4px 15px rgba(0,0,0,0.4);word-wrap:break-word}
-    .links a:hover{transform:translateY(-3px);box-shadow:0 8px 25px rgba(0,0,0,0.6)}
-    .links a:nth-child(1){background:#333}          /* GitHub */
-    .links a:nth-child(2){background:#0a66c2}        /* LinkedIn */
-    .links a:nth-child(3){background:#e4405f}        /* Insta */
-    .links a:nth-child(4){background:#7b68ee}        /* Projeto */
+    * {
+      margin: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: radial-gradient(circle at center, #1a1a2e, #0f0f1a);
+      color: #fff;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.08);
+      backdrop-filter: blur(12px);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 24px;
+      padding: 40px 30px;
+      max-width: 420px;
+      width: 100%;
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+    }
+
+    img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      border: 4px solid #7b68ee;
+      margin-bottom: 20px;
+      object-fit: cover;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    h1 {
+      font-size: 2rem;
+      margin: 10px 0;
+      font-weight: 700;
+      word-wrap: break-word;
+    }
+
+    p {
+      font-size: 1.1rem;
+      opacity: 0.85;
+      margin-bottom: 20px;
+      line-height: 1.6;
+      padding: 0 10px;
+      word-wrap: break-word;
+    }
+
+    .long-text {
+      margin-top: 15px;
+      font-size: 0.95rem;
+      opacity: 0.85;
+      line-height: 1.55;
+      text-align: justify;
+      padding: 0 10px;
+    }
+
+    .links a {
+      display: block;
+      margin: 12px auto;
+      padding: 14px 24px;
+      max-width: 280px;
+      color: white;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1.05rem;
+      transition: .3s;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+      word-wrap: break-word;
+    }
+
+    .links a:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.6);
+    }
+
+    .links a:nth-child(1) { background: #333; }
+    .links a:nth-child(2) { background: #0a66c2; }
   </style>
 </head>
+
 <body>
   <div class="card">
-    <img src="eu.jfif" alt="Murilo">
-    <h1>Hello, I´m Murilo 👋</h1>
-    <p>Controlling | Costing | BI | Data Analysis</p>
-    
-  <div class="text">
-    <h1>I'm Murilo, with a bachelor degree in Production Engineering and a Master's in Economics and Business Administration. 
-      I have solid experience in cost management and controllership, acquired throughout my career in large companies. 
-      Currently, I am enhancing my knowledge in data analysis, focusing on tools such as Power Query, Power BI, SQL, and Python. 
-      My career path combines a strong technical foundation with a keen eye for detail, always striving to optimize processes and 
-      generate valuable insights. I believe that the integration of engineering, economics and data analysis enables me to understand 
-      challenges comprehensively and propose innovative solutions. I'm passionate about learning and solving complex problems, 
-      and I'm always looking for new opportunities to apply my knowledge and grow professionally.<h1>
-    
+
+    <img src="eu.jfif" alt="Foto de Murilo Evangelista">
+
+    <h1>Hello, I’m Murilo 👋</h1>
+    <p>Controlling • Costing • BI • Data Analysis</p>
+
+    <p class="long-text">
+      I'm Murilo, with a bachelor degree in Production Engineering and a Master's in Economics and Business Administration. 
+      I have solid experience in cost management and controllership, acquired throughout my career in large companies.
+      Currently, I am enhancing my knowledge in data analysis, focusing on tools such as Power Query, Power BI, SQL, and Python.
+      My career path combines a strong technical foundation with a keen eye for detail, striving to optimize processes and generate valuable insights.
+      I believe that integrating engineering, economics and data analysis enables me to understand challenges comprehensively and propose innovative solutions.
+      I'm passionate about learning and solving complex problems, always seeking new opportunities to grow professionally.
+    </p>
+
     <div class="links">
       <a href="https://github.com/cheique-murilo" target="_blank">GitHub</a>
       <a href="https://www.linkedin.com/in/muriloevangelista/" target="_blank">LinkedIn</a>
-      </div>
     </div>
+
   </div>
 </body>
 </html>
+
