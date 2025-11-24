@@ -8,10 +8,10 @@ My career path combines a strong technical foundation with a keen eye for detail
 I believe that the integration of engineering, economics and data analysis enables me to understand challenges comprehensively and propose innovative solutions.
 I'm passionate about learning and solving complex problems, and I'm always looking for new opportunities to apply my knowledge and grow professionally.
 
-Deixo aqui os links para minhas páginas profissionais (LinkedIn e projetos) ✌
+Here are the links to my professional pages: (LinkedIn and projects) ✌
 
 https://github.com/cheique-murilo
 
 https://www.linkedin.com/in/muriloevangelista
 
-> Em construção... 🚧
+> Under development... 🚧
