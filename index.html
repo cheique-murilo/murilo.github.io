@@ -92,6 +92,25 @@
       box-shadow: 0 8px 25px rgba(0,0,0,0.6);
     }
 
+    /* NOVO: container para botões lado a lado */
+    .button-row {
+      display: flex;
+      gap: 15px;
+      margin-top: 15px;
+    }
+
+    .button-row a {
+      flex: 1;
+      text-align: center;
+    }
+
+    /* Responsivo: empilha em telas pequenas */
+    @media (max-width: 480px) {
+      .button-row {
+        flex-direction: column;
+      }
+    }
+
   </style>
 </head>
 
@@ -121,21 +140,27 @@
       <a href="https://www.linkedin.com/in/muriloevangelista/" target="_blank" class="linkedin-btn">LinkedIn</a>
     </div>
 
-    <!-- BLOCO GITHUB (agora abre uma página interna com os projetos) -->
+    <!-- BLOCO GITHUB COM 2 BOTÕES -->
     <div class="section">
       <p>
         On my GitHub, you will find a variety of projects covering data analysis, automation, dashboards, 
-        and exploration of different tools and approaches. My goal is to continuously learn, experiment, 
-        and share practical solutions that demonstrate how data can drive meaningful results 📈🧐
+        and different tools. I'm always experimenting, learning, and sharing solutions that show how data 
+        can drive meaningful insights 📈🧐
       </p>
 
-      <!-- ALTERAÇÃO AQUI: agora vai para projects.html -->
-      <a href="projects.html" class="github-btn">Meus Projetos</a>
+      <div class="button-row">
+        <!-- Botão 1: Página interna com projetos -->
+        <a href="projects.html" class="github-btn">My projects</a>
+
+        <!-- Botão 2: GitHub principal -->
+        <a href="https://github.com/muriloevangelista" target="_blank" class="github-btn">My GitHub</a>
+      </div>
     </div>
 
   </div>
 </body>
 </html>
+
 
 
 
