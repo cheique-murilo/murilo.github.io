@@ -1,4 +1,4 @@
-# Hello! 🧐
+# Hello! 🤓
 
 
 I'm Murilo, with a bachelor degree in Production Engineering and a Master's in Economics and Business Administration. 
